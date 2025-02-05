@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 export default function Contact() {
     const [formData, setFormData] = useState({
@@ -32,7 +32,6 @@ export default function Contact() {
 
     const validateForm = (data) => {
         const errors = {};
-        // console.log(`${data.email}, ${!data.email.trim()}`);
 
         if(!data.name.trim()) {
             errors.name = 'Name is required.'
@@ -58,7 +57,6 @@ export default function Contact() {
     }
 
     useEffect(() => {
-        // console.log(`${formData.email}`);
         const newErrors = validateForm(formData);
         setErrors(newErrors);
     }, [formData.email, formData.name, formData.message])
