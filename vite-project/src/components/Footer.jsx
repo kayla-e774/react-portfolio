@@ -13,6 +13,11 @@ export default function Footer() {
                             LinkedIn
                         </a>
                     </li>
+                    <li className="nav-item">
+                        <a href="https://stackoverflow.com/users/29500992/kayla-engelstad" target="_blank" className="nav-link px-2 text-body-secondary">
+                            Stack Overflow
+                        </a>
+                    </li>
                 </ul>
             </footer>
         </div>
