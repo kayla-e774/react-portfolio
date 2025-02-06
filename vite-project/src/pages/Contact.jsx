@@ -79,6 +79,7 @@ export default function Contact() {
                         className="form-control" 
                         id="InputName"
                     />
+                    <p></p>
                         {errors.name && (
                             <div className="alert alert-danger">{errors.name}</div>
                         )}
@@ -95,6 +96,7 @@ export default function Contact() {
                         aria-describedby="emailHelp"
                         placeholder="example@email.com"
                     />
+                    <p></p>
                         {errors.email && (
                             <div className="alert alert-danger">{errors.email}</div>
                         )}
@@ -109,6 +111,7 @@ export default function Contact() {
                         id="InputMessage" 
                         rows="3"
                     />
+                    <p></p>
                         {errors.message && (
                             <div className="alert alert-danger">{errors.message}</div>
                         )}
