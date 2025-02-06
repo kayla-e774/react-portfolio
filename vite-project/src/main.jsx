@@ -9,6 +9,7 @@ import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 
 import 'bootstrap/dist/css/bootstrap.min.css'
+import './main.css'
 
 const router = createBrowserRouter([
   {
