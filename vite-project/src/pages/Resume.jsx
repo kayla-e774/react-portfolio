@@ -13,10 +13,11 @@ export default function Resume() {
                         </button>
                     </a>
                 </div>
+                
                 <dl className="row">
                     <dt className="col-sm-3">Front End Tools</dt>
                     <dd className="col-sm-9">
-                        <ul>
+                        <ul className="list-unstyled">
                             <li>JavaScript</li>
                             <li>CSS</li>
                             <li>HTML</li>
@@ -28,7 +29,7 @@ export default function Resume() {
 
                     <dt className="col-sm-3">Back End Tools</dt>
                     <dd className="col-sm-9">
-                        <ul>
+                        <ul className="list-unstyled">
                             <li>APIs</li>
                             <li>Node</li>
                             <li>Express</li>
@@ -39,7 +40,7 @@ export default function Resume() {
 
                     <dt className="col-sm-3">Other Tools</dt>
                     <dd className="col-sm-9">
-                        <ul>
+                        <ul className="list-unstyled">
                             <li>C#/.NET</li>
                             <li>VB6</li>
                             <li>Blazor</li>
