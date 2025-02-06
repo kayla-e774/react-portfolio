@@ -4,7 +4,7 @@ export default function Nav() {
     const currentPage = useLocation().pathname;
 
     return (
-        <nav className="navbar navbar-light bg-light">
+        <nav className="navbar navbar-light bg-light navbar-custom">
             <div className="container-fluid">
                 <span className="navbar-brand mb-0 h1">Kayla Engelstad</span>
             

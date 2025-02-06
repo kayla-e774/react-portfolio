@@ -1,0 +1,39 @@
+.h1 {
+    font-size: 50px;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #553c9a, #ee4b2b);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+body {
+    background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+}
+
+.navbar-custom {
+    background-color: #fad0c4 !important;
+}
+
+.h2 {
+    font-size: 40px;
+    color: #553c9a;
+}
+
+h4, dt {
+    font-size: 30px;
+    color: #553c9a !important;
+}
+
+.btn {
+    background-image: linear-gradient(to left, #553c9a, #ee4b2b);
+    border-color: #ee4b2b;
+}
+
+.border-bottom {
+    border-color: #553c9a !important;
+}
+
+.active {
+    font-weight: bold;
+}
