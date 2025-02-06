@@ -9,6 +9,8 @@
 
 body {
     background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .navbar-custom {
@@ -37,3 +39,13 @@ h4, dt {
 .active {
     font-weight: bold;
 }
+
+html {
+    height: 100%;
+}
+
+/*
+main {
+    min-height: calc(82.5vh - 40px);
+}
+*/
